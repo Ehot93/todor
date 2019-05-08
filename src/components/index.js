@@ -17,11 +17,9 @@ function Article() {
 
 function App() {
  return (
-    <div>
         <h1>App Todor</h1>
         <Article/>
         <artos>
-    </div>
   );
 }
 
