@@ -1,10 +1,18 @@
 import React from 'react'
 
-function Article() {
+/*function artos() {
   const body = <div>Artos here</div> 
  return(
       <p>Hello @</p>
     );
+}*/
+class Artos extends React.Component{
+	render(){
+		return(<p>Hello @</p>)
+			
+		
+	}
 }
 
-export default artos
+
+export default Artos
