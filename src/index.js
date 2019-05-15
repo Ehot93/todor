@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
-import artos from './components/artos.js'
+import Artos from './components/artos.js'
 
 
 function Article() {
