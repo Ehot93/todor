@@ -1,12 +1,12 @@
 import React from 'react'
 
-// function artos() {
+// function Artos() {
 //   const body = <div>Artos here</div> 
 //  return(
 //       <p>Hello @</p>
 //     );
 // }
-// class artos extends React.Component{
+// class Artos extends React.Component{
 // 	render(){
 // 		return(<p>Hello @</p>)
 			
