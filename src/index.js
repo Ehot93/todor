@@ -1,6 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
 import Artos from './components/artos.js'
+import Footer from './components/next.js'
 
 
 function Article() {
@@ -23,6 +24,7 @@ function App() {
         <h1>App Todor</h1>
         <Artos/>
         <Article/>
+        <Footer/>
     </div>
   );
 }
