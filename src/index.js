@@ -1,11 +1,12 @@
 import React from 'react'
 import {render} from 'react-dom'
-import Artos from './components/artos.js'
-import Footer from './components/next.js'
+import Artos from './components/artos'
+import Footer from './components/footer'
+import CoolHeader from './components/header'
 
 
 function Article() {
-  const body = <section>Footer</section> 
+  const body = <section>Content</section> 
  return(
       <div className="hello" style={{color:"red"}}>
         <h2>title</h2>
@@ -20,7 +21,9 @@ function Article() {
 
 function App() {
  return (
-    <div>
+<div>
+    <CoolHeader/>
+    
         <h1>App Todor</h1>
         <Artos/>
         <Article/>

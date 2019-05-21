@@ -3,8 +3,9 @@ import React from 'react'
 class Footer extends React.Component{
 	render(){
 		return(
-<div>
-	<p style={FooterStyle}>It's Footer</p>
+<div style={FooterStyle}>
+	<p>It's Footer</p>
+	<p>And you like it</p>
 </div>
 			)
 	}
