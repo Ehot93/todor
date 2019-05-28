@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Header.css"
 
 const CoolHeader = () => {
 return(
-	<header>
+	<header className="navbar">
 	<nav>
 	<div>Main</div>
 	<div>Contacts</div>

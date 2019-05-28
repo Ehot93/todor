@@ -1,5 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
+import "./index.css"
 import Artos from './components/artos'
 import Footer from './components/footer'
 import CoolHeader from './components/header'
