@@ -26,8 +26,7 @@ function App() {
  city = "Moskow", animal = "horse";
  return (
 <div>
-    <CoolHeader/>
-    
+        <CoolHeader/>
         <h1>App {todor}</h1>
         <p>{`${city} ${animal}`}</p>
         <Apex/>
