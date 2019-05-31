@@ -2,11 +2,10 @@ import React from 'react'
 import {render} from 'react-dom'
 import "./index.css"
 //import Artos from './components/artos'
-import Footer from './components/footer'
 import CoolHeader from './components/header'
-//import Flags from './components/flags'
+import TodoItem from './components/todoItem'
 import Apex from './components/apex'
-
+import Footer from './components/footer'
 
 function Article() {
   const body = <section>Content here:</section> 
@@ -22,14 +21,13 @@ function Article() {
 }
 
 function App() {
- let todor = "Todor",
- city = "Moskow", animal = "horse";
+ let todor = "Todor"
  return (
 <div>
         <CoolHeader/>
         <h1>App {todor}</h1>
-        <p>{`${city} ${animal}`}</p>
         <Apex/>
+        <TodoItem/>
         <Footer/>
     </div>
   );

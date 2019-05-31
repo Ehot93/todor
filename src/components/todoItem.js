@@ -1,8 +1,7 @@
 import React from 'react'
 
-const Flags = ()=>{
+const TodoItem = ()=>{
 	return(
-
 <form>
     <label>
       Тык <input type="checkbox" name="name" />
@@ -13,10 +12,7 @@ const Flags = ()=>{
     <label>
       Пык <input type="checkbox" name="name" />
     </label>
-    
   </form>	
-	
-
 		)
 }
-export default Flags
+export default TodoItem
