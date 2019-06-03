@@ -2,17 +2,13 @@ import React from 'react'
 
 const TodoItem = ()=>{
 	return(
-<form>
-    <label>
-      Тык <input type="checkbox" name="name" />
-    </label>
-    <label>
-      Мык <input type="checkbox" name="name" />
-    </label>
-    <label>
-      Пык <input type="checkbox" name="name" />
-    </label>
-  </form>	
+<div className=".t-form">
+    <p>
+      Тык 
+    </p>
+    <input type="checkbox" name="name" />    
+</div>
+
 		)
 }
 export default TodoItem

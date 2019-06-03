@@ -6,6 +6,7 @@ import CoolHeader from './components/header'
 import TodoItem from './components/todoItem'
 import Apex from './components/apex'
 import Footer from './components/footer'
+import Apl from './components/apl'
 
 function Article() {
   const body = <section>Content here:</section> 
@@ -27,7 +28,7 @@ function App() {
         <CoolHeader/>
         <h1>App {todor}</h1>
         <Apex/>
-        <TodoItem/>
+        <Apl/>
         <Footer/>
     </div>
   );
