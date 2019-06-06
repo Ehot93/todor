@@ -3,7 +3,7 @@ import TodoItem from './todoItem'
 
 const Apl = ()=>{
 	return(
-		<div>
+		<div className="t-form">
 		<TodoItem/>
 		<TodoItem/>
 		<TodoItem/>

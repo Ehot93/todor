@@ -2,11 +2,9 @@ import React from 'react'
 
 const TodoItem = ()=>{
 	return(
-<div className=".t-form">
-    <p>
-      Тык 
-    </p>
-    <input type="checkbox" name="name" />    
+<div className="t-item">
+    <input type="checkbox"  />  
+    <p>Нажимать на галочку тут</p>
 </div>
 
 		)
