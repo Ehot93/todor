@@ -7,6 +7,7 @@ import TodoItem from './components/todoItem'
 import Apex from './components/apex'
 import Footer from './components/footer'
 import Apl from './components/apl'
+import App from './App'
 
 function Article() {
   const body = <section>Content here:</section> 
@@ -21,10 +22,10 @@ function Article() {
     )
 }
 
-function App() {
+function Apa() {
  let todor = "Todor"
  return (
-<div>
+    <div>
         <CoolHeader/>
         <h1>App {todor}</h1>
         <Apex/>
