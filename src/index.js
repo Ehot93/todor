@@ -7,7 +7,8 @@ import TodoItem from './components/todoItem'
 import Apex from './components/apex'
 import Footer from './components/footer'
 import Apl from './components/apl'
-import App from './App'
+// import App from './App'
+import App from './jokes/App'
 
 function Article() {
   const body = <section>Content here:</section> 
