@@ -1,5 +1,3 @@
-import React from 'react'
-
 const jokesData = [
     {
         id: 1,
@@ -22,4 +20,4 @@ const jokesData = [
     }
 ]
 
-export default JokesData
+export default jokesData

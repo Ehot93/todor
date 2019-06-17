@@ -4,8 +4,8 @@ import "./Joke.css"
 const Joke = (props)=>{
 	return(
 		<div className="card">
-		<p>{props.info.question}</p>
-		<p>{props.info.punchLine}</p>
+		<p>{props.question}</p>
+		<p>{props.punchLine}</p>
 		</div>
 		)
 }
