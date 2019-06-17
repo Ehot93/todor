@@ -1,3 +1,4 @@
+import React from 'react'
 const jokesData = [
     {
         id: 1,
@@ -19,5 +20,5 @@ const jokesData = [
         punchLine: "There’s no menu: You get what you deserve."
     }
 ]
-
 export default jokesData
+
