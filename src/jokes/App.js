@@ -1,26 +1,14 @@
 import React from 'react'
 import Joke from './Joke'
+import JokesData from './jokesData'
 
 function App() {
+  const jokeComponents = JokesData.map(joke => <Joke question={joke.question} punchLine={joke.punchLine}/>)
+  
   return (
     <div>
-    <h1>MemEss</h1>
-    <Joke info={{
-      question:"— Доктор, мне нужно эффективное средство для похудения! — Нет проблем. Я вам пропишу уголь. — В порошках или в таблетках?",
-      punchLine:"— В мешках. Вагоны будете разгружать!"
-    }} />
-    <Joke info={{
-      question:"Тебе плохо? Скучно? Одиноко? Тогда я иду к тебе!",
-      punchLine:"И ты поймешь,как тебе было хорошо"
-    }}/>
-    <Joke info={{
-      question:"Одним из самых счастливых дней моего детства был день, когда в третьем классе меня исключили из бальных танцев за неуплату.",
-      punchLine:"Я был словно в раю."
-    }}/>
-    <Joke info={{
-      question:"Здравствуй, Иван-царевич, мы получили твою стрелу. К сожалению, сейчас все лягушки заняты, но твоя стрела очень важна для нас. ",
-      punchLine:"Оставайся на линии..."
-    }}/>
+    <h2>Memes</h2>
+      {jokeComponents}
     </div>
   )
 }
