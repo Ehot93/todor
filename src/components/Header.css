@@ -22,4 +22,5 @@
 .container{
     margin: 5px 15px;
     width:80%;
+    border:1px solid #df9c9c;
 }
