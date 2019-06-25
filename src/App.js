@@ -17,13 +17,29 @@ import AppClass from './components/AppClass.js'
 //         </div>
 //     )
 // }
-function App(){
-    const classBlock = todosData.map(block=><AppClass text={block.text}/>)
-    return(
-        <div>
-        {classBlock}
-        </div>
-    )
+// function App(){
+//     const classBlock = todosData.map(block=><AppClass text={block.text}/>)
+//     return(
+//         <div>
+//         {classBlock}
+//         </div>
+//     )
+// }
+class App extends React.Component{
+    constructor(){
+        super()
+        this.state = {
+            answer:"Yeah"
+        }
+    }
+    render(){
+        return(
+            <div>
+                <h1>State text by class ? {this.state.answer}</h1>
+            </div>
+        )
+    }
 }
+
 
 export default App
