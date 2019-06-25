@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 //import ContactCard from './ContactCard'
 import productsData from './components/vschoolProducts.js'
 import Products from './components/Products.js'
@@ -25,21 +25,23 @@ import AppClass from './components/AppClass.js'
 //         </div>
 //     )
 // }
-class App extends React.Component{
+class App extends Component{
     constructor(){
-        super()
-        this.state = {
-            answer:"Yeah"
-        }
+    super()
+    this.state = {
+        name: "Max",
+        age: 19
+    }
     }
     render(){
-        return(
-            <div>
-                <h1>State text by class ? {this.state.answer}</h1>
-            </div>
-        )
+    return (
+        <div>
+            <h1> {this.state.name} </h1>
+            <h3><font color="#3AC1EF">{this.state.age} years old</font></h3>
+        </div>
+    )
     }
+ 
 }
-
 
 export default App
