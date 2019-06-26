@@ -32,15 +32,9 @@ class App extends Component{
         }
     }
     render(){
-        let bob;
-        if(this.state.isLoggedIn)
-        {
-            bob = "You are currently logged in"
-        }
-        else bob = "You are currently logged out"
         return(
         <div>
-            <h1>{bob}</h1>
+            <h1>You are currently logged {this.state.isLoggedIn?'in':'out'}</h1>
         </div>
         )
     }
