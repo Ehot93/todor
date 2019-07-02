@@ -8,6 +8,8 @@ import Apex from './components/apex'
 import Footer from './components/footer'
 import Apl from './components/apl'
 import App from './App'
+import AppClassState from './components/AppClassState'
+import App30 from './components/App30'
 //import App from './jokes/App'
 
 // class App extends React.Component{
@@ -49,4 +51,4 @@ import App from './App'
 // }
 
 
-render(<App/> ,document.getElementById('root'))
+render(<App30/> ,document.getElementById('root'))
