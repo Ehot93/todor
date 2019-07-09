@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import React from 'react'
+>>>>>>> aae2d4675ecc7dc3cc0495baca2287d7e88952ed
 const jokesData = [
     {
         id: 1,
@@ -19,5 +23,9 @@ const jokesData = [
         punchLine: "There’s no menu: You get what you deserve."
     }
 ]
-
 export default jokesData
+
+<<<<<<< HEAD
+export default jokesData
+=======
+>>>>>>> aae2d4675ecc7dc3cc0495baca2287d7e88952ed

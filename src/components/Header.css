@@ -9,6 +9,18 @@
     justify-content: center;
     align-items: center;
 }
-/*.t-form{
-	text-align: center;
-}*/
+.products{
+    display: inline-block;
+    width: 30%;
+    background: rgb(61, 121, 61);
+    color:#fff;
+    border:2px solid rgb(67, 119, 54);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 15px;
+}
+.container{
+    margin: 5px 15px;
+    width:80%;
+    border:1px solid #df9c9c;
+}
