@@ -1,15 +1,24 @@
-import React from 'react'
-//import todosData from '../components/todosData'
+import React, {Component} from 'react'
+import todosData from '../components/todosData'
 import TodoItem from './TodoItem'
-import productsData from "./vschoolProducts"
 
-const App = ()=>{
-    const productComponents = productsData.map(item => <TodoItem key={item.id} productsData={item}/>)
-    
-    return (
-        <div className="todo-list">
-            {productComponents}
-        </div>
-    )
+class App extends Component{
+    constructor(){
+        super()
+        this.state = {
+            todos: todosData
+        }
+    }
+    ChangeIt(){
+        alert('ye')
+    }     
+    render(){
+        const todoItem = this.state.todos.map(item => <TodoItem key={item.id} text={item.text} completed={item.completed} checked={item.completed} onChange={this.onChange}/>)
+        return(
+            <div className="todo-list">
+                {todoItem}
+            </div>
+        )
+    }
 }
 export default App

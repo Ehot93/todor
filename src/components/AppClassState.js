@@ -13,7 +13,7 @@ class AppClassState extends Component{
     render(){
         const todoItem = this.state.todos.map(item => <ComponentClass key={item.id} text={item.text} completed={item.completed}/>)
         return(
-            <div>
+            <div className="todo-list">
                 {todoItem}
             </div>
         )
