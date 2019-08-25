@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from 'react'
+=======
+import React, {Component} from 'react'
+>>>>>>> 858b1e128c832b89c650e797654b85bcbce58a00
 //import ContactCard from './ContactCard'
 import productsData from './components/vschoolProducts.js'
 import Products from './components/Products.js'
@@ -6,6 +10,7 @@ import todosData from './components/todosData.js';
 import TodoItems from './components/TodoItems.js';
 import AppClass from './components/AppClass.js'
 
+<<<<<<< HEAD
 // function App() {
 //     const Product = productsData.map(prod=><Products key={prod.id} name={prod.name} price={prod.price} description={prod.description}/>);
 //     const TodoIt = todosData.map(item=><TodoItems key={item.id} text={item.text} completed={item.completed}/>)
@@ -22,8 +27,22 @@ function App(){
     return(
         <div>
         {classBlock}
+=======
+class App extends Component{
+    constructor(){
+        super()
+        this.state = {
+            isLoggedIn: true
+        }
+    }
+    render(){
+        return(
+        <div>
+            <h1>You are currently logged {this.state.isLoggedIn?'in':'out'}</h1>
+>>>>>>> 858b1e128c832b89c650e797654b85bcbce58a00
         </div>
-    )
-}
+        )
+    }
+} 
 
 export default App

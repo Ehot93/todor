@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 =======
 import React from 'react'
+<<<<<<< HEAD
 >>>>>>> aae2d4675ecc7dc3cc0495baca2287d7e88952ed
+=======
+>>>>>>> 858b1e128c832b89c650e797654b85bcbce58a00
 const jokesData = [
     {
         id: 1,
@@ -26,6 +29,9 @@ const jokesData = [
 export default jokesData
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default jokesData
 =======
 >>>>>>> aae2d4675ecc7dc3cc0495baca2287d7e88952ed
+=======
+>>>>>>> 858b1e128c832b89c650e797654b85bcbce58a00
